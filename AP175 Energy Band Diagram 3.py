@@ -326,6 +326,17 @@ AlN = Material(NC=6.3e18,
               eps=9.14,
               name='AlN')
 
+ZnO = Material(NC=6.3e18,
+              NV=4.8e20,
+              EG=3.37,
+              me = 0.24,
+              mh = 0.59,
+              chi= 0.6,
+              eps=7.926, 
+              name='ZnO)
+
+# dieletric constant = 7.926 = sqrt(e_|| * e_norm) Retrieved from: http://www.springer.com/cda/content/document/cda_downloaddocument/9783540888468-c1.pdf?SGWID=0-0-45-692199-p173851917
+
 class Layer:
     """
     Layer of semiconductor with the following properties...
